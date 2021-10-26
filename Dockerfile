@@ -1,6 +1,6 @@
 FROM arm64v8/openjdk:8-jdk
 
-RUN apt-get update && apt-get upgrade -y && apt-get install -y git curl
+RUN apt-get update && apt-get upgrade -y && apt-get install -y git curl rpm
 
 ARG user=jenkins
 ARG group=jenkins
